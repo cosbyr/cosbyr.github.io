@@ -7,12 +7,12 @@
     <title>Embedded Survey123 Test</title>
 </head>
 <body>
-    <div id="receivedMessage">Iframe Event:</div>
+    <div id="receivedMessage">IFrame Event:</div>
     <iframe src="https://survey123dev.arcgis.com/share/1260ee1a254f4e5b8a56ef1bea56a201?embed=onSubmitted" frameborder="0" height=400px></iframe>
     <script>
         window.addEventListener("message", receiveMessage,false);
         function receiveMessage(e){
-            document.getElementById("receivedMessage").innerText = "Iframe Event: " + e.data;
+            document.getElementById("receivedMessage").innerText = "IFrame Event: " + e.data;
         }
     </script>
 </body>
