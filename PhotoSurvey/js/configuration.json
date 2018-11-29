@@ -6,7 +6,7 @@
         "splashBackgroundUrl": "images/splash.jpg",
         "useWebmapOrigImg": true,
         "includeOverviewMap": true,
-        "overviewMapInitiallyOpen": true,
+        "overviewMapInitiallyOpen": false,
         "overviewMapBasemap": "Streets",
         "overviewMapZoom": 16,
         "showSkip": true,
@@ -14,7 +14,7 @@
 
         "proxyProgram": "proxy/proxy.ashx",
 
-        "randomizeSelection": false,
+        "randomizeSelection": true,
         "allowGuestSubmissions": true,
         "thumbnailLimit": "10",
 
