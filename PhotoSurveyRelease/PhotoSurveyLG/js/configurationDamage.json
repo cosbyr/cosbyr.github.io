@@ -2,26 +2,24 @@
     "source": "dbd49c155bf249f79bf1e518d56dbbb2",
     "folderId": "052b07ec56b3462c943adcc6959354ec",
     "values": {
-        "webmap": "6dbd843fa2fc49df95c3117c1e01cda4",
+        "webmap": "e314c342c113423e8051fcaa1156b37b",
         "splashBackgroundUrl": "images/splash.jpg",
         "useWebmapOrigImg": true,
-        "includeOverviewMap": true,
-        "overviewMapInitiallyOpen": true,
+        "includeOverviewMap": false,
+        "overviewMapInitiallyOpen": false,
         "overviewMapBasemap": "Streets",
         "overviewMapZoom": 16,
-        "showSkip": true,
-        "skipButtonText": "Skip",
 
         "proxyProgram": "proxy/proxy.ashx",
 
-        "randomizeSelection": false,
+        "randomizeSelection": true,
         "allowGuestSubmissions": true,
         "thumbnailLimit": "10",
 
         "showGuest": "true",
         "facebookAppId": "",
         "googleplusClientId": "",
-        "showTwitter": "false",
+        "showTwitter": "true",
 
 
         "googleplusLogoutUrl": "https://accounts.google.com/logout",
